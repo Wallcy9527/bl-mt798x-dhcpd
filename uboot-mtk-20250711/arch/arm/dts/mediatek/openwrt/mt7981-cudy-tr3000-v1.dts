@@ -23,19 +23,18 @@
 			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(Factory),256k(bdinfo),2048k(fip),65536k(ubi)";
 		};
 
-	mtd-layout {
 		layout@1 {
 			label = "max-250m";
 			mtdids = "nmbm0=nmbm0";
 			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(Factory),256k(bdinfo),2048k(fip),256000k(ubi)";
 		};
 
-	mtd-layout {
 		layout@2 {
 			label = "adaptive";
 			mtdids = "nmbm0=nmbm0";
 			mtdparts = "nmbm0:1024k(bl2),512k(u-boot-env),2048k(Factory),256k(bdinfo),2048k(fip),-(ubi)";
 		};
+	};
 
 	memory@40000000 {
 		device_type = "memory";
