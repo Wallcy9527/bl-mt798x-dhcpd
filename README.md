@@ -1,3 +1,5 @@
+fork然后稍微添加了一点，只有Cudy Tr3000，理论上256也通用，手上的设备是硬改256的，uboot默认是112MB，添加了maximum 240MB和adaptive自适应ubi分区布局
+
 # ATF and u-boot for mt798x with DHCPD
 
 A modified version of hanwckf's U-Boot for MT798x by Yuzhii, with support for DHCPD and a beautiful web UI. (Builds available for versions 2025/SP1/SP2)
